@@ -110,7 +110,7 @@ const VIEW = {
         <small class="bnote">Fichas de bônus não podem ser sacadas.</small>
         <div class="acts">${btn('Comprar fichas', 'pri', 'l', 'data-a="buy"')}${btn('Sacar', 'sec', 'l', 'data-a="out"')}</div></section>
       ${limitsCard('Limites de hoje')}
-      <section class="banner"><img src="${A}art/pack-nobru.webp" alt=""><div class="gl"><span><b>King Panda chegou</b><small>Pacote novo na Loja<span class="od"> do KingPanda Games</span></small></span>${btn('Ver na Loja', 'sec', 's', 'data-a="back:loja"')}</div></section>
+      <section class="banner"><img src="${A}art/pack-nobru.webp" alt=""><div class="gl"><span><b>O Rei Panda chegou</b><small>Pacote novo na Loja<span class="od"> do KingPanda Games</span></small></span>${btn('Ver na Loja', 'sec', 's', 'data-a="back:loja"')}</div></section>
       <section class="card help">${ic('headset')}<span class="tx"><small class="k">Suporte</small><b>Precisa de ajuda?</b><span>Dúvidas sobre compra, saque ou limites?<span class="od"> Fale com a gente pelo chat.</span></span></span>${btn('Abrir chat', 'sec', 's', 'data-a="help"')}</section>
       <section class="card txs"><div class="th"><b>Últimas transações</b><a href="#historico"><span class="od">Ver histórico completo</span><span class="om">Ver tudo</span> →</a></div>${txList(F.tx.slice(0, 3))}</section>
     </div>`;
